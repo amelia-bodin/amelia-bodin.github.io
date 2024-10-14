@@ -53,7 +53,9 @@ var CONFIG = {
       "log",
       "genericLog",
       "time",
-      "pow"
+      "pow", 
+      "emissions_capita",
+      "emissions_tonnes"
      ]
     },
     "autoconfig": {
@@ -79,7 +81,9 @@ var CONFIG = {
       "log",
       "genericLog",
       "time",
-      "pow"
+      "pow",
+      "emissions_capita",
+      "emissions_tonnes"
      ]
     },
     "autoconfig": {

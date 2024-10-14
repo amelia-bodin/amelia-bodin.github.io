@@ -190,9 +190,9 @@ exports.default = Vizabi.Tool.extend("BubbleChart", {
           "excludeIDs": ["tag"]
         }
       },
-      environment: {
+      emissions_capita: {
         autoconfig: {
-          type: "emissions_capita",  // New environment type
+          type: "measure",  // New environment type
           includeOnlyIDs: ["Air emissions, Kilograms per capita, Accommodation and food service activities", 
             "	Air emissions, Kilograms per capita, Activities of extraterritorial organisations and bodies", 
             "Air emissions, Kilograms per capita, Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use",
