@@ -114,17 +114,17 @@ var CONFIG = {
     "palette": {
      "_default": "#4f6366"
      "European Union - 27 countries (from 2020)": "#ff6159",      // Special color for EU and other groups
-     "Sweden": "#ff6159"     
-     "BRIICS economies - Brazil, Russia, India, Indonesia, China and South Africa": "#ff6159"
-     "EU27": "#ff6159"
-     "Euro area (19 countries)": "#ff6159"
-     "European Union – 27 countries (from 01/02/2020)": "#ff6159"
-     "European Union (28 countries)": "#ff6159"
-     "OECD - Europe": "#ff6159"
-     "OECD - Total": "#ff6159"
-     "OECD America": "#ff6159"
-     "OECD Asia Oceania": "#ff6159"
-     "World": "#ff6159"
+     "Sweden": "#ff6159",     
+     "BRIICS economies - Brazil, Russia, India, Indonesia, China and South Africa": "#ff6159",
+     "EU27": "#ff6159",
+     "Euro area (19 countries)": "#ff6159",
+     "European Union – 27 countries (from 01/02/2020)": "#ff6159",
+     "European Union (28 countries)": "#ff6159",
+     "OECD - Europe": "#ff6159",
+     "OECD - Total": "#ff6159",
+     "OECD America": "#ff6159",
+     "OECD Asia Oceania": "#ff6159",
+     "World": "#ff6159",
      "G7": "#ff6159"
     },
     "paletteHiddenKeys": [],
