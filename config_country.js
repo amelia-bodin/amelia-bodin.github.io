@@ -112,7 +112,7 @@ var CONFIG = {
     "autoconfig": {},
     "data": "data",
     "palette": {
-     "_default": "#4f6366"
+     "_default": "#4f6366",
      "European Union - 27 countries (from 2020)": "#ff6159",      // Special color for EU and other groups
      "Sweden": "#ff6159",     
      "BRIICS economies - Brazil, Russia, India, Indonesia, China and South Africa": "#ff6159",
