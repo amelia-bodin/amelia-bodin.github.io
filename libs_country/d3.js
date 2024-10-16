@@ -671,7 +671,7 @@ function axis(orient, scale) {
     selection.filter(entering)
         .attr("fill", "none")
         .attr("font-size", 10)
-        .attr("font-family", "sans-serif")
+        .attr("font-family", "segoe-ui")
         .attr("text-anchor", orient === right ? "start" : orient === left ? "end" : "middle");
 
     selection
