@@ -190,69 +190,6 @@ exports.default = Vizabi.Tool.extend("BubbleChart", {
           "excludeIDs": ["tag"]
         }
       },
-      emissions_capita: {
-        autoconfig: {
-          type: "measure",  // New environment type
-          includeOnlyIDs: ["Air emissions, Kilograms per capita, Accommodation and food service activities", 
-            "	Air emissions, Kilograms per capita, Activities of extraterritorial organisations and bodies", 
-            "Air emissions, Kilograms per capita, Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use",
-          "Air emissions, Kilograms per capita, Administrative and support service activities", 
-        "Air emissions, Kilograms per capita, Agriculture, forestry and fishing", 
-      "Air emissions, Kilograms per capita, Arts, entertainment and recreation", 
-    "Air emissions, Kilograms per capita, Construction", 
-  "Air emissions, Kilograms per capita, Education", 
-"Air emissions, Kilograms per capita, Electricity, gas, steam and air conditioning supply", 
-"Air emissions, Kilograms per capita, Financial and insurance activities", 
-"Air emissions, Kilograms per capita, Human health and social work activities", 
-"Air emissions, Kilograms per capita, Information and communication", 
-"Air emissions, Kilograms per capita, Manufacturing", 
-"Air emissions, Kilograms per capita, Mining and quarrying", 
-"Air emissions, Kilograms per capita, Other service activities", 
-"Air emissions, Kilograms per capita, Professional, scientific and technical activities", 
-"Air emissions, Kilograms per capita, Public administration and defence; compulsory social security", 
-"Air emissions, Kilograms per capita, Real estate activities", 
-"Air emissions, Kilograms per capita, Total - all NACE activities", 
-"Air emissions, Kilograms per capita, Transportation and storage",
-"Air emissions, Kilograms per capita, Water supply; sewerage, waste management and remediation activities",
-"Air emissions, Kilograms per capita, Wholesale and retail trade; repair of motor vehicles and motorcycles" ]  // Environmental variables
-        }
-      },    
-      emissions_tonnes: {  // New emissions_tonnes group
-        autoconfig: {
-          type: "measure",
-          includeOnlyIDs: [
-            "Air emissions, Thousand tonnes, Accommodation and food service activities",
-            "Air emissions, Thousand tonnes, Activities by households",
-            "Air emissions, Thousand tonnes, Activities of extraterritorial organisations and bodies",
-            "Air emissions, Thousand tonnes, Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use",
-            "Air emissions, Thousand tonnes, Administrative and support service activities",
-            "Air emissions, Thousand tonnes, Agriculture, forestry and fishing",
-            "Air emissions, Thousand tonnes, Air transport",
-            "Air emissions, Thousand tonnes, All ISIC activities and activities of households",
-            "Air emissions, Thousand tonnes, All ISIC/NACE activities",
-            "Air emissions, Thousand tonnes, Arts, entertainment and recreation",
-            "Air emissions, Thousand tonnes, Construction",
-            "Air emissions, Thousand tonnes, Education",
-            "Air emissions, Thousand tonnes, Electricity, gas, steam and air conditioning supply",
-            "Air emissions, Thousand tonnes, Financial and insurance activities",
-            "Air emissions, Thousand tonnes, Human health and social work activities",
-            "Air emissions, Thousand tonnes, Information and communication",
-            "Air emissions, Thousand tonnes, Land transport and transport via pipelines",
-            "Air emissions, Thousand tonnes, Manufacturing",
-            "Air emissions, Thousand tonnes, Mining and quarrying",
-            "Air emissions, Thousand tonnes, Other service activities",
-            "Air emissions, Thousand tonnes, Professional, scientific and technical activities",
-            "Air emissions, Thousand tonnes, Public administration and defence; compulsory social security",
-            "Air emissions, Thousand tonnes, Real estate activities",
-            "Air emissions, Thousand tonnes, Services (except transportation and storage)",
-            "Air emissions, Thousand tonnes, Total - all NACE activities",
-            "Air emissions, Thousand tonnes, Transportation and storage",
-            "Air emissions, Thousand tonnes, Water supply; sewerage, waste management and remediation activities",
-            "Air emissions, Thousand tonnes, Water transport",
-            "Air emissions, Thousand tonnes, Wholesale and retail trade; repair of motor vehicles and motorcycles"
-          ]  // Specified emissions variables
-        }
-      },
       entities_colorlegend: {
         "autoconfig": {
           "type": "entity_domain",
@@ -261,7 +198,7 @@ exports.default = Vizabi.Tool.extend("BubbleChart", {
       },
       marker: {
         limit: 5000,
-        space: ["entities", "time", "emissions_capita", "emissions_tonnes"],
+        space: ["entities", "time"],
         axis_x: {
           use: "indicator",
           "autoconfig": {
