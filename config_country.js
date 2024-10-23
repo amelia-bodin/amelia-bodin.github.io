@@ -363,7 +363,7 @@ var CONFIG = {
   "show_ticks": true,
   "sidebarCollapse": false,
   "splash": false,
-  "zoomOnScrolling": false
+  "zoomOnScrolling": true
  },
  "chartType": "BubbleChart"
 };
