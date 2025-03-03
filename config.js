@@ -349,4 +349,6 @@ var CONFIG = {
   "zoomOnScrolling": true
  },
  "chartType": "BubbleChart"
+ // "chartType": "BarRankChart"
+ // "chartType": "LineChart"
 };

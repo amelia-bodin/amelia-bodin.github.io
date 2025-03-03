@@ -24,9 +24,17 @@
 
   <body style="width: 70%; max-width: 900px; height: 100%; margin: 0 auto; font-family: 'Segoe UI black';">
 	<h1>Transforma Län</h1>
+
+  <div class="tabs">
+    <button id="tab-bubble">Välj Bubble Chart</button>
+    <button id="tab-line">Välj Line Chart</button>
+    <button id="tab-bar">Välj Barrank Chart</button>
+</div>
+
 <div id="placeholder" style="width: 100%; height: 600px;"></div>
 
     <script src="config.js"></script>
+    <script src="index.js"></script>
     <script>
 
       var ddfcsvReader = new DDFCsvReader.getDDFCsvReaderObject();
@@ -34,7 +42,31 @@
       Vizabi.Reader.extend("ext-csv", CsvReader.csvReaderObject);
       Vizabi.Reader.extend("excel", ExcelReader.excelReaderObject);
 
-      var viz = Vizabi('BubbleChart', document.getElementById('placeholder'), CONFIG);
+// New code to test different chart versions
+     var viz = Vizabi(CONFIG.chartType, document.getElementById('placeholder'), CONFIG);
+
+     document.getElementById('tab-bubble').addEventListener('click', function() {
+        CONFIG.chartType = 'BubbleChart'; // Update the chart type in config
+        viz.destroy(); // Destroy the current chart
+        viz = Vizabi(CONFIG.chartType, document.getElementById('placeholder'), CONFIG);
+      });
+
+      document.getElementById('tab-line').addEventListener('click', function() {
+        CONFIG.chartType = 'LineChart';
+        viz.destroy();
+        viz = Vizabi(CONFIG.chartType, document.getElementById('placeholder'), CONFIG);
+      });
+
+      document.getElementById('tab-bar').addEventListener('click', function() {
+        CONFIG.chartType = 'BarRankChart';
+        viz.destroy();
+        viz = Vizabi(CONFIG.chartType, document.getElementById('placeholder'), CONFIG);
+      });
+
+
+//      var viz = Vizabi('BubbleChart', document.getElementById('placeholder'), CONFIG);
+//     var viz = Vizabi('BarRankChart', document.getElementById('placeholder'), CONFIG);
+//      var viz = Vizabi('LineChart', document.getElementById('placeholder'), CONFIG);
 
     </script>
   </body>
