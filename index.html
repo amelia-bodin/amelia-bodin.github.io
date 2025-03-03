@@ -64,23 +64,39 @@
       Vizabi.Reader.extend("excel", ExcelReader.excelReaderObject);
 
 // New code to test different chart versions
-     var viz = Vizabi(CONFIG.chartType, document.getElementById('placeholder'), CONFIG);
+      // Load the config file dynamically
+      function loadConfig(configFile) {
+        var script = document.createElement('script');
+        script.src = configFile;
+        document.head.appendChild(script);
+      }
 
-     document.getElementById('tab-bubble').addEventListener('click', function() {
-        CONFIG.chartType = 'BubbleChart'; // Update the chart type in config
-        viz.destroy(); // Destroy the current chart
+      // Initial chart load (default to BubbleChart)
+      loadConfig('config-bubble.js');
+
+      var viz;
+
+      document.getElementById('tab-bubble').addEventListener('click', function() {
+        loadConfig('config-bubble.js');
+        if (viz) {
+          viz.destroy();
+        }
         viz = Vizabi(CONFIG.chartType, document.getElementById('placeholder'), CONFIG);
       });
 
       document.getElementById('tab-line').addEventListener('click', function() {
-        CONFIG.chartType = 'LineChart';
-        viz.destroy();
+        loadConfig('config-line.js');
+        if (viz) {
+          viz.destroy();
+        }
         viz = Vizabi(CONFIG.chartType, document.getElementById('placeholder'), CONFIG);
       });
 
       document.getElementById('tab-bar').addEventListener('click', function() {
-        CONFIG.chartType = 'BarRankChart';
-        viz.destroy();
+        loadConfig('config-barrank.js');
+        if (viz) {
+          viz.destroy();
+        }
         viz = Vizabi(CONFIG.chartType, document.getElementById('placeholder'), CONFIG);
       });
 
