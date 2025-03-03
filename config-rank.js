@@ -9,7 +9,7 @@ var CONFIG_BARRANK = {
  },
  "locale": {
   "filePath": "assets/translation/",
-  "id": "en"
+  "id": "sv-SE"
  },
  "state": {
   "entities": {
@@ -77,7 +77,7 @@ var CONFIG_BARRANK = {
     "autoconfig": {},
     "data": "data",
     "palette": {
-     "_default": "#ffb600"
+     "_default": "#4f6366"
     },
     "paletteHiddenKeys": [],
     "paletteLabels": null,
