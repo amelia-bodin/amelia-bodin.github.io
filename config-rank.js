@@ -1,4 +1,4 @@
-var CONFIG = {
+var CONFIG_BARRANK = {
  "data": {
   "_lastModified": 1740998506846,
   "assetsPath": "C:\\Users\\amelia.bodin\\AppData\\Local\\Programs\\Gapminder Offline\\resources\\preview-data\\",

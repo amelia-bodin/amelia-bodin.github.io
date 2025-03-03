@@ -1,4 +1,4 @@
-var CONFIG = {
+var CONFIG_BUBBLE = {
  "data": {
   "_lastModified": 1731335061848,
   "assetsPath": "C:\\Users\\amelia.bodin\\AppData\\Local\\Programs\\Gapminder Offline\\resources\\preview-data\\",
