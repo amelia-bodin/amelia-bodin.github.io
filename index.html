@@ -54,6 +54,9 @@
 
 <div id="placeholder" style="width: 100%; height: 600px;"></div>
 
+    <script src="config-bubble.js"></script>
+    <script src="config-line.js"></script>
+    <script src="config-rank.js"></script>
     <script src="index.js"></script>
     <script>
 
@@ -63,41 +66,30 @@
       Vizabi.Reader.extend("excel", ExcelReader.excelReaderObject);
 
 // New code to test different chart versions
-      // Load the config file dynamically
-      function loadConfig(configFile) {
-        var script = document.createElement('script');
-        script.src = configFile;
-        document.head.appendChild(script);
-      }
+// Create initial chart (default to BubbleChart)
+var viz = Vizabi(CONFIG_BUBBLE.chartType, document.getElementById('placeholder'), CONFIG_BUBBLE);
 
-      // Initial chart load (default to BubbleChart)
-      loadConfig('config-bubble.js');
+// Tab button logic
+document.getElementById('tab-bubble').addEventListener('click', function() {
+  if (viz) {
+    viz.destroy();
+  }
+  viz = Vizabi(CONFIG_BUBBLE.chartType, document.getElementById('placeholder'), CONFIG_BUBBLE);
+});
 
-      var viz;
+document.getElementById('tab-line').addEventListener('click', function() {
+  if (viz) {
+    viz.destroy();
+  }
+  viz = Vizabi(CONFIG_LINE.chartType, document.getElementById('placeholder'), CONFIG_LINE);
+});
 
-      document.getElementById('tab-bubble').addEventListener('click', function() {
-        loadConfig('config-bubble.js');
-        if (viz) {
-          viz.destroy();
-        }
-        viz = Vizabi(CONFIG.chartType, document.getElementById('placeholder'), CONFIG);
-      });
-
-      document.getElementById('tab-line').addEventListener('click', function() {
-        loadConfig('config-line.js');
-        if (viz) {
-          viz.destroy();
-        }
-        viz = Vizabi(CONFIG.chartType, document.getElementById('placeholder'), CONFIG);
-      });
-
-      document.getElementById('tab-bar').addEventListener('click', function() {
-        loadConfig('config-barrank.js');
-        if (viz) {
-          viz.destroy();
-        }
-        viz = Vizabi(CONFIG.chartType, document.getElementById('placeholder'), CONFIG);
-      });
+document.getElementById('tab-bar').addEventListener('click', function() {
+  if (viz) {
+    viz.destroy();
+  }
+  viz = Vizabi(CONFIG_BARRANK.chartType, document.getElementById('placeholder'), CONFIG_BARRANK);
+});
 
 
 //      var viz = Vizabi('BubbleChart', document.getElementById('placeholder'), CONFIG);
