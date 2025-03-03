@@ -20,13 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 break;
         }
 
-        // Create the chart using the selected configuration
-        if (window.viz) {
-            window.viz.destroy(); // Destroy the current chart before creating a new one
-        }
-
-        window.viz = Vizabi(chartType, placeholder, config); // Create the new chart
-    }
 
     // Set up event listeners for the buttons
     document.getElementById('tab-bubble').addEventListener('click', function () {

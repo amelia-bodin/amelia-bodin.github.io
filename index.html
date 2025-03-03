@@ -71,23 +71,14 @@ var viz = Vizabi(CONFIG_BUBBLE.chartType, document.getElementById('placeholder')
 
 // Tab button logic
 document.getElementById('tab-bubble').addEventListener('click', function() {
-  if (viz) {
-    viz.destroy();
-  }
   viz = Vizabi(CONFIG_BUBBLE.chartType, document.getElementById('placeholder'), CONFIG_BUBBLE);
 });
 
 document.getElementById('tab-line').addEventListener('click', function() {
-  if (viz) {
-    viz.destroy();
-  }
   viz = Vizabi(CONFIG_LINE.chartType, document.getElementById('placeholder'), CONFIG_LINE);
 });
 
 document.getElementById('tab-bar').addEventListener('click', function() {
-  if (viz) {
-    viz.destroy();
-  }
   viz = Vizabi(CONFIG_BARRANK.chartType, document.getElementById('placeholder'), CONFIG_BARRANK);
 });
 
