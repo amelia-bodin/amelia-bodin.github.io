@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 break;
         }
 
+    }
 
     // Set up event listeners for the buttons
     document.getElementById('tab-bubble').addEventListener('click', function () {
