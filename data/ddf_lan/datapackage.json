@@ -1,0 +1,1100 @@
+{
+  "name": "lan_ddf",
+  "title": "lan_ddf",
+  "description": "",
+  "version": "0.0.1",
+  "language": {
+    "id": "en",
+    "name": "English"
+  },
+  "translations": [],
+  "license": "",
+  "author": "",
+  "resources": [
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ant_kon--by--lan--year.csv",
+      "name": "ant_kon--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_kon"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ant_kon_ans--by--lan--year.csv",
+      "name": "ant_kon_ans--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_kon_ans"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ant_ny_for--by--lan--year.csv",
+      "name": "ant_ny_for--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_ny_for"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--avs_tilv_tra--by--lan--year.csv",
+      "name": "avs_tilv_tra--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "avs_tilv_tra"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--brutto_lan--by--lan--year.csv",
+      "name": "brutto_lan--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "brutto_lan"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--foradl--by--lan--year.csv",
+      "name": "foradl--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "foradl"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--foradl_bio--by--lan--year.csv",
+      "name": "foradl_bio--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "foradl_bio"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_bio--by--lan--year.csv",
+      "name": "forv_bio--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_bio"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_kvn--by--lan--year.csv",
+      "name": "forv_kvn--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_kvn"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_kvn_ant--by--lan--year.csv",
+      "name": "forv_kvn_ant--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_kvn_ant"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_kvn_bio--by--lan--year.csv",
+      "name": "forv_kvn_bio--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_kvn_bio"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_man_bio--by--lan--year.csv",
+      "name": "forv_man_bio--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_man_bio"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_mn--by--lan--year.csv",
+      "name": "forv_mn--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_mn"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_mn_ant--by--lan--year.csv",
+      "name": "forv_mn_ant--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_mn_ant"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_tot--by--lan--year.csv",
+      "name": "forv_tot--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_tot"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_tot_ant--by--lan--year.csv",
+      "name": "forv_tot_ant--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_tot_ant"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--med_tilv_tra--by--lan--year.csv",
+      "name": "med_tilv_tra--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "med_tilv_tra"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--netto_bio--by--lan--year.csv",
+      "name": "netto_bio--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "netto_bio"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--netto_lan--by--lan--year.csv",
+      "name": "netto_lan--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "netto_lan"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--prodv--by--lan--year.csv",
+      "name": "prodv--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "prodv"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--syss_lan--by--lan--year.csv",
+      "name": "syss_lan--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "syss_lan"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--vaxthus--by--lan--year.csv",
+      "name": "vaxthus--by--lan--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "vaxthus"
+          }
+        ],
+        "primaryKey": [
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--concepts.csv",
+      "name": "ddf--concepts-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "concept"
+          },
+          {
+            "name": "concept_type"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "description"
+          },
+          {
+            "name": "tags"
+          },
+          {
+            "name": "unit"
+          },
+          {
+            "name": "domain"
+          }
+        ],
+        "primaryKey": "concept"
+      }
+    },
+    {
+      "path": "ddf--entities--geo--lan.csv",
+      "name": "geo--lan-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "is--lan"
+          },
+          {
+            "name": "name"
+          }
+        ],
+        "primaryKey": "lan"
+      }
+    },
+    {
+      "path": "ddf--entities--tag.csv",
+      "name": "tag-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "tag"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "parent"
+          }
+        ],
+        "primaryKey": "tag"
+      }
+    }
+  ],
+  "ddfSchema": {
+    "datapoints": [
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "ant_kon",
+        "resources": [
+          "ant_kon--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "ant_kon_ans",
+        "resources": [
+          "ant_kon_ans--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "ant_ny_for",
+        "resources": [
+          "ant_ny_for--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "avs_tilv_tra",
+        "resources": [
+          "avs_tilv_tra--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "brutto_lan",
+        "resources": [
+          "brutto_lan--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "foradl",
+        "resources": [
+          "foradl--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "foradl_bio",
+        "resources": [
+          "foradl_bio--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "forv_bio",
+        "resources": [
+          "forv_bio--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "forv_kvn",
+        "resources": [
+          "forv_kvn--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "forv_kvn_ant",
+        "resources": [
+          "forv_kvn_ant--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "forv_kvn_bio",
+        "resources": [
+          "forv_kvn_bio--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "forv_man_bio",
+        "resources": [
+          "forv_man_bio--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "forv_mn",
+        "resources": [
+          "forv_mn--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "forv_mn_ant",
+        "resources": [
+          "forv_mn_ant--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "forv_tot",
+        "resources": [
+          "forv_tot--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "forv_tot_ant",
+        "resources": [
+          "forv_tot_ant--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "med_tilv_tra",
+        "resources": [
+          "med_tilv_tra--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "netto_bio",
+        "resources": [
+          "netto_bio--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "netto_lan",
+        "resources": [
+          "netto_lan--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "prodv",
+        "resources": [
+          "prodv--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "syss_lan",
+        "resources": [
+          "syss_lan--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "vaxthus",
+        "resources": [
+          "vaxthus--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "ant_kon",
+        "resources": [
+          "ant_kon--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "ant_kon_ans",
+        "resources": [
+          "ant_kon_ans--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "ant_ny_for",
+        "resources": [
+          "ant_ny_for--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "avs_tilv_tra",
+        "resources": [
+          "avs_tilv_tra--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "brutto_lan",
+        "resources": [
+          "brutto_lan--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "foradl",
+        "resources": [
+          "foradl--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "foradl_bio",
+        "resources": [
+          "foradl_bio--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "forv_bio",
+        "resources": [
+          "forv_bio--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "forv_kvn",
+        "resources": [
+          "forv_kvn--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "forv_kvn_ant",
+        "resources": [
+          "forv_kvn_ant--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "forv_kvn_bio",
+        "resources": [
+          "forv_kvn_bio--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "forv_man_bio",
+        "resources": [
+          "forv_man_bio--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "forv_mn",
+        "resources": [
+          "forv_mn--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "forv_mn_ant",
+        "resources": [
+          "forv_mn_ant--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "forv_tot",
+        "resources": [
+          "forv_tot--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "forv_tot_ant",
+        "resources": [
+          "forv_tot_ant--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "med_tilv_tra",
+        "resources": [
+          "med_tilv_tra--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "netto_bio",
+        "resources": [
+          "netto_bio--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "netto_lan",
+        "resources": [
+          "netto_lan--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "prodv",
+        "resources": [
+          "prodv--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "syss_lan",
+        "resources": [
+          "syss_lan--by--lan--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "year"
+        ],
+        "value": "vaxthus",
+        "resources": [
+          "vaxthus--by--lan--year"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "is--lan",
+        "resources": [
+          "geo--lan-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "name",
+        "resources": [
+          "geo--lan-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan"
+        ],
+        "value": "is--lan",
+        "resources": [
+          "geo--lan-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan"
+        ],
+        "value": "name",
+        "resources": [
+          "geo--lan-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "tag"
+        ],
+        "value": "name",
+        "resources": [
+          "tag-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "tag"
+        ],
+        "value": "parent",
+        "resources": [
+          "tag-2"
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "concept_type",
+        "resources": [
+          "ddf--concepts-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "description",
+        "resources": [
+          "ddf--concepts-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "domain",
+        "resources": [
+          "ddf--concepts-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "name",
+        "resources": [
+          "ddf--concepts-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "tags",
+        "resources": [
+          "ddf--concepts-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "unit",
+        "resources": [
+          "ddf--concepts-2"
+        ]
+      }
+    ],
+    "synonyms": []
+  }
+}
