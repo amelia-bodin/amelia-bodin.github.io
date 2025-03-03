@@ -1,12 +1,34 @@
 document.addEventListener("DOMContentLoaded", function () {
     const placeholder = document.getElementById('placeholder');
 
+    // Function to update the chart based on selected chart type
     function updateChart(chartType) {
-        CONFIG.chartType = chartType;
+        // Choose the correct configuration based on the chart type
+        let config;
+        switch (chartType) {
+            case 'BubbleChart':
+                config = CONFIG_BUBBLE;
+                break;
+            case 'LineChart':
+                config = CONFIG_LINE;
+                break;
+            case 'BarRankChart':
+                config = CONFIG_BARRANK;
+                break;
+            default:
+                config = CONFIG_BUBBLE; // Default to BubbleChart if no match
+                break;
+        }
 
-        var viz = Vizabi(CONFIG.chartType, placeholder, CONFIG);
+        // Create the chart using the selected configuration
+        if (window.viz) {
+            window.viz.destroy(); // Destroy the current chart before creating a new one
+        }
+
+        window.viz = Vizabi(chartType, placeholder, config); // Create the new chart
     }
 
+    // Set up event listeners for the buttons
     document.getElementById('tab-bubble').addEventListener('click', function () {
         updateChart('BubbleChart');
     });
@@ -19,5 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
         updateChart('BarRankChart');
     });
 
+    // Initialize with the default chart type
     updateChart('BubbleChart');
 });
