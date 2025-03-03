@@ -19,5 +19,5 @@ document.addEventListener("DOMContentLoaded", function () {
         updateChart('BarRankChart');
     });
 
-    updateChart('LineChart');
+    updateChart('BubbleChart');
 });
